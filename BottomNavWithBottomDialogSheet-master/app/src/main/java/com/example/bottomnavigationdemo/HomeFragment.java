@@ -5,12 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.android.volley.RequestQueue;
 import com.example.bottomnavigationdemo.ApiResponse.SubjectBook.Subject;
 import com.example.bottomnavigationdemo.ApiResponse.SubjectBook.SubjectApi;
 
@@ -51,14 +49,11 @@ public class HomeFragment extends Fragment {
 
     private void getData(LayoutInflater inflater, View view) {
         String BASE_URL = "https://openlibrary.org";
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
 
         SubjectApi api = retrofit.create(SubjectApi.class);
 
-        Call<Subject> call = api.getLoveSubjects(5);
+        Call<Subject> call = api.getLoveSubjects(10);
         call.enqueue(new Callback<Subject>() {
             @Override
             public void onResponse(Call<Subject> call, Response<Subject> response) {
