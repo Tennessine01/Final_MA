@@ -5,10 +5,116 @@
     android:layout_height="match_parent"
     tools:context=".Home_fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="AAAAA" />
+        android:id="@+id/home_scrollview">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:id="@+id/home_layout1"
+                android:layout_weight="0.5">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Science fiction books"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+
+                    android:background="@color/primary2">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/horizontal_scrollview1">
+
+                    <include layout="@layout/book_button"/>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/primary2"
+                    android:text="Novels and literature"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontal_scrollview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <include
+                            layout="@layout/book_button" />
+                        <include layout="@layout/book_button" />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/primary2"
+                    android:text="Health, mind and body"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontal_scrollview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/book_button" />
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
 
 </RelativeLayout>

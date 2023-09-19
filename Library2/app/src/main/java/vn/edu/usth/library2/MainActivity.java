@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity
 
 
         obj_bottomnavigationview = findViewById(R.id.bottom_navigation);
-
+//        getSupportFragmentManager().beginTransaction().replace(R.id.)
 
         obj_viewpager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback()
         {
@@ -72,20 +72,17 @@ public class MainActivity extends AppCompatActivity
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-                switch (item.getItemId()) {
-                    case R.id.home_tab:
-                        currentPage = 0;
-                        break;
-                    case R.id.search_tab:
-                        currentPage = 1;
-                        break;
-                    case R.id.mylibrary_tab:
-                        currentPage = 2;
-                        break;
-                    case R.id.account_tab:
-                        currentPage = 3;
-                        break;
-                  }
+                int id = item.getItemId();
+                if (id == R.id.home_tab) {
+                    obj_viewpager.setCurrentItem(0);
+                } else if (id == R.id.search_tab) {
+                    obj_viewpager.setCurrentItem(1);
+                } else if (id == R.id.mylibrary_tab) {
+                    obj_viewpager.setCurrentItem(2);
+                } else if (id == R.id.account_tab) {
+                    obj_viewpager.setCurrentItem(3);
+                }
+                return true;
             }
         });
     }
