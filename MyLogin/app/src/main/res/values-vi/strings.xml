@@ -21,29 +21,37 @@
     <string name="Enter_email">Nhập email của bạn</string>
     <string name="back">Quay lại</string>
 
-    <string name="Logout">Logout</string>
+    <string name="Logout">Đăng xuất</string>
     <string name="menu_Open">Open</string>
     <string name="menu_Close">Close</string>
-    <string name="Search">Search</string>
+    <string name="Search">Kìm kiếm</string>
     <string name="Tag">Tags</string>
-    <string name="Discovery">Discover</string>
+    <string name="Discovery">Khám phá</string>
 
-    <string name="Horror">Horror</string>
-    <string name="History">History</string>
-    <string name="Art">Art</string>
-    <string name="Story">Life Story</string>
-    <string name="Business">Business</string>
-    <string name="Comedy">Comedy</string>
-    <string name="Cooking">Cooking</string>
-    <string name="Tech">Technology</string>
-    <string name="Education">Education</string>
-    <string name="Romance">Romance</string>
+    <string name="Horror">Kinh dị</string>
+    <string name="History">Lịch sử</string>
+    <string name="Art">Nghệ thuật</string>
+    <string name="Story">Đời sống</string>
+    <string name="Business">Kinh doanh</string>
+    <string name="Comedy">Hài kịch</string>
+    <string name="Cooking">Nấu ăn</string>
+    <string name="Tech">Công nghệ</string>
+    <string name="Education">Giáo dục</string>
+    <string name="Romance">Lãng mạn</string>
 
-    <string name="MyLibrary">My Library</string>
+    <string name="MyLibrary">Thư viện của tôi</string>
     <string name="EmptyLibrary">Your Library is empty</string>
 
-    <string name="Home">Home</string>
-    <string name="Favourite">Favourite books</string>
-    <string name="Recommend">Recommended for you</string>
-    <string name="New">New books</string>
+    <string name="Home">Trang chủ</string>
+    <string name="Favourite">Sách yêu thích</string>
+    <string name="Recommend">Được đề xuất cho bạn</string>
+    <string name="New">Sách mới</string>
+
+    <string name="Book_name">Tên sách</string>
+    <string name="Author">Tác giả</string>
+    <string name="Since">Viết năm</string>
+    <string name="Rating">Đánh giá</string>
+    <string name="Add">Thêm vào thư viện của bạn</string>
+    <string name="Read">Đọc sách</string>
+    <string name="Description">Mô tả</string>
 </resources>

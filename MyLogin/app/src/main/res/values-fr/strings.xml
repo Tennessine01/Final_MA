@@ -21,29 +21,37 @@
     <string name="Enter_email">Envoyez votre e-mail</string>
     <string name="back">Retourner</string>
 
-    <string name="Logout">Logout</string>
+    <string name="Logout">Se déconnecter</string>
     <string name="menu_Open">Open</string>
     <string name="menu_Close">Close</string>
-    <string name="Search">Search</string>
+    <string name="Search">Recherche</string>
     <string name="Tag">Tags</string>
-    <string name="Discovery">Discover</string>
+    <string name="Discovery">Découvrir</string>
 
-    <string name="Horror">Horror</string>
-    <string name="History">History</string>
+    <string name="Horror">Horreur</string>
+    <string name="History">Histoire</string>
     <string name="Art">Art</string>
-    <string name="Story">Life Story</string>
-    <string name="Business">Business</string>
-    <string name="Comedy">Comedy</string>
-    <string name="Cooking">Cooking</string>
-    <string name="Tech">Technology</string>
-    <string name="Education">Education</string>
+    <string name="Story">Histoire de la vie</string>
+    <string name="Business">Entreprise</string>
+    <string name="Comedy">Comédie</string>
+    <string name="Cooking">Cuisson</string>
+    <string name="Tech">Technologie</string>
+    <string name="Education">Éducation</string>
     <string name="Romance">Romance</string>
 
-    <string name="MyLibrary">My Library</string>
-    <string name="EmptyLibrary">Your Library is empty</string>
+    <string name="MyLibrary">Ma bibliothèque</string>
+    <string name="EmptyLibrary">Votre bibliothèque est vide</string>
 
-    <string name="Home">Home</string>
-    <string name="Favourite">Favourite books</string>
-    <string name="Recommend">Recommended for you</string>
-    <string name="New">New books</string>
+    <string name="Home">Maison</string>
+    <string name="Favourite">Livres préférés</string>
+    <string name="Recommend">Recommandé pour vous</string>
+    <string name="New">Nouveaux livres</string>
+
+    <string name="Book_name">Nom du livre</string>
+    <string name="Author">Auteur/Auteure</string>
+    <string name="Since">Écrit</string>
+    <string name="Rating">Notation</string>
+    <string name="Add">Add to your library</string>
+    <string name="Read">Ajouter à votre bibliothèque</string>
+    <string name="Description">Description</string>
 </resources>

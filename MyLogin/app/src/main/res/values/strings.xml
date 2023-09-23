@@ -48,7 +48,7 @@
 
     <string name="Book_name">Book name</string>
     <string name="Author">Author</string>
-    <string name="Since">Since</string>
+    <string name="Since">Written</string>
     <string name="Rating">Rating</string>
     <string name="Add">Add to your library</string>
     <string name="Read">Read book</string>

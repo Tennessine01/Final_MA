@@ -21,29 +21,38 @@
     <string name="Enter_email">Senden Sie ihre E-Mail</string>
     <string name="back">Zurück</string>
 
-    <string name="Logout">Logout</string>
+    <string name="Logout">Ausloggen</string>
     <string name="menu_Open">Open</string>
     <string name="menu_Close">Close</string>
-    <string name="Search">Search</string>
+    <string name="Search">Suchen</string>
     <string name="Tag">Tags</string>
-    <string name="Discovery">Discover</string>
+    <string name="Discovery">Entdecken</string>
 
-    <string name="Horror">Horror</string>
-    <string name="History">History</string>
-    <string name="Art">Art</string>
-    <string name="Story">Life Story</string>
-    <string name="Business">Business</string>
-    <string name="Comedy">Comedy</string>
-    <string name="Cooking">Cooking</string>
-    <string name="Tech">Technology</string>
-    <string name="Education">Education</string>
-    <string name="Romance">Romance</string>
+    <string name="Horror">Grusel</string>
+    <string name="History">Geschichte</string>
+    <string name="Art">Kunst</string>
+    <string name="Story">Lebensgeschichte</string>
+    <string name="Business">Geschäft</string>
+    <string name="Comedy">Komödie</string>
+    <string name="Cooking">Kochen</string>
+    <string name="Tech">Technologie</string>
+    <string name="Education">Ausbildung</string>
+    <string name="Romance">Romantik</string>
 
-    <string name="MyLibrary">My Library</string>
-    <string name="EmptyLibrary">Your Library is empty</string>
+    <string name="MyLibrary">Meine Bibliothek</string>
+    <string name="EmptyLibrary">Ihre Bibliothek ist leer</string>
 
-    <string name="Home">Home</string>
-    <string name="Favourite">Favourite books</string>
-    <string name="Recommend">Recommended for you</string>
-    <string name="New">New books</string>
+    <string name="Home">Heim</string>
+    <string name="Favourite">Lieblingsbücher</string>
+    <string name="Recommend">Für dich empfohlen</string>
+    <string name="New">Neue Bücher</string>
+
+    <string name="Book_name">Buchname</string>
+    <string name="Author">Autor/Autorin</string>
+    <string name="Since">Geschrieben</string>
+    <string name="Rating">Bewertung</string>
+    <string name="Add">Zu Ihrer Bibliothek hinzufügen</string>
+    <string name="Read">Buch lesen</string>
+    <string name="Description">Beschreibung</string>
+
 </resources>
