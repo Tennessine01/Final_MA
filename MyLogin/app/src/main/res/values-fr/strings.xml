@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="welcome">Bienvenu</string>
+    <string name="login_text">Veuillez connecter avec vos informations</string>
+    <string name="email_text">Adresse e-mail</string>
+    <string name="password_text">Mot de passe</string>
+    <string name="remember_text">Souviens de moi</string>
+    <string name="forgot_text">Mot de passe oublié?</string>
+    <string name="login_button">Connecter</string>
+    <string name="register_text">Vous n\'avez pas de compte? Inscrivez-vous ici</string>
+    <string name="continue_text">Continue avec</string>
+
+    <string name="register_title">Registre</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="term_of_use">D\'accord avec les conditions d\'utilisation</string>
+
+    <string name="reset_password_title">Réinitialiser le mot de passe</string>
+    <string name="confirm">Confirmer</string>
+
+    <string name="Enter_email">Envoyez votre e-mail</string>
+    <string name="back">Retourner</string>
+
+    <string name="Logout">Logout</string>
+    <string name="menu_Open">Open</string>
+    <string name="menu_Close">Close</string>
+    <string name="Search">Search</string>
+    <string name="Tag">Tags</string>
+    <string name="Discovery">Discover</string>
+
+    <string name="Horror">Horror</string>
+    <string name="History">History</string>
+    <string name="Art">Art</string>
+    <string name="Story">Life Story</string>
+    <string name="Business">Business</string>
+    <string name="Comedy">Comedy</string>
+    <string name="Cooking">Cooking</string>
+    <string name="Tech">Technology</string>
+    <string name="Education">Education</string>
+    <string name="Romance">Romance</string>
+
+    <string name="MyLibrary">My Library</string>
+    <string name="EmptyLibrary">Your Library is empty</string>
+
+    <string name="Home">Home</string>
+    <string name="Favourite">Favourite books</string>
+    <string name="Recommend">Recommended for you</string>
+    <string name="New">New books</string>
+</resources>

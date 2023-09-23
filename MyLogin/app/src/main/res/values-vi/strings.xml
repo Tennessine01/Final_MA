@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="welcome">Xin chào</string>
+    <string name="login_text">Hãy đăng nhập bằng thông tin của bạn</string>
+    <string name="email_text">Địa chỉ Email</string>
+    <string name="password_text">Mật khẩu</string>
+    <string name="remember_text">Ghi nhớ tôi</string>
+    <string name="forgot_text">Quên mật khẩu?</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="register_text">Chưa có tài khoản? Đăng ký tại đây</string>
+    <string name="continue_text">Đăng nhập bằng</string>
+
+    <string name="register_title">Đăng ký</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="term_of_use">Đồng ý với điều khoản</string>
+
+    <string name="reset_password_title">Đặt lại mật khẩu</string>
+    <string name="confirm">Xác nhận</string>
+
+    <string name="Enter_email">Nhập email của bạn</string>
+    <string name="back">Quay lại</string>
+
+    <string name="Logout">Logout</string>
+    <string name="menu_Open">Open</string>
+    <string name="menu_Close">Close</string>
+    <string name="Search">Search</string>
+    <string name="Tag">Tags</string>
+    <string name="Discovery">Discover</string>
+
+    <string name="Horror">Horror</string>
+    <string name="History">History</string>
+    <string name="Art">Art</string>
+    <string name="Story">Life Story</string>
+    <string name="Business">Business</string>
+    <string name="Comedy">Comedy</string>
+    <string name="Cooking">Cooking</string>
+    <string name="Tech">Technology</string>
+    <string name="Education">Education</string>
+    <string name="Romance">Romance</string>
+
+    <string name="MyLibrary">My Library</string>
+    <string name="EmptyLibrary">Your Library is empty</string>
+
+    <string name="Home">Home</string>
+    <string name="Favourite">Favourite books</string>
+    <string name="Recommend">Recommended for you</string>
+    <string name="New">New books</string>
+</resources>
