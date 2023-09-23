@@ -14,13 +14,13 @@
         android:theme="@style/Theme.MyLogin"
         tools:targetApi="31">
         <activity
-            android:name=".ResetPasswordActivity"
+            android:name=".Helper.ResetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".Helper.Login"
             android:exported="false" />
         <activity
-            android:name=".Register"
+            android:name=".Helper.Register"
             android:exported="false" />
         <activity android:name=".Fragment.DetailActivity"
             android:exported="false">
@@ -28,7 +28,7 @@
         <activity android:name=".Fragment.DetailActivityBook"
             android:exported="false"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Helper.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

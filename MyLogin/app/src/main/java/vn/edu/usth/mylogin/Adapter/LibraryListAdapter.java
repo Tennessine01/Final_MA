@@ -15,21 +15,22 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners;
 
-import vn.edu.usth.mylogin.Fragment.DetailActivityBook;
+import java.util.ArrayList;
+
 import vn.edu.usth.mylogin.Domain.BookDomain;
+import vn.edu.usth.mylogin.Fragment.DetailActivityBook;
 import vn.edu.usth.mylogin.Helper.ChangeNumberItemsListener;
 import vn.edu.usth.mylogin.Helper.ManagementMyLibrary;
+import vn.edu.usth.mylogin.Helper.RemoveBookListener;
 import vn.edu.usth.mylogin.R;
-
-import java.util.ArrayList;
 
 public class LibraryListAdapter extends RecyclerView.Adapter<LibraryListAdapter.ViewHolder> {
 
     ArrayList<BookDomain> listBookSelected;
     private ManagementMyLibrary managementBook;
-    ChangeNumberItemsListener changeNumberItemsListener;
+    RemoveBookListener changeNumberItemsListener;
 
-    public LibraryListAdapter(ArrayList<BookDomain> listBookSelected, Context context, ChangeNumberItemsListener changeNumberItemsListener) {
+    public LibraryListAdapter(ArrayList<BookDomain> listBookSelected, Context context, RemoveBookListener changeNumberItemsListener) {
         this.listBookSelected = listBookSelected;
         managementBook=new ManagementMyLibrary(context);
         this.changeNumberItemsListener = changeNumberItemsListener;
@@ -67,7 +68,8 @@ public class LibraryListAdapter extends RecyclerView.Adapter<LibraryListAdapter.
 
         holder.minusItem.setOnClickListener(v -> managementBook.minusNumberFood(listBookSelected, position, () -> {
             notifyDataSetChanged();
-            changeNumberItemsListener.changed();
+            changeNumberItemsListener.onClickListener(position);
+            notifyDataSetChanged();// cho chac :))
         }));
     }
 

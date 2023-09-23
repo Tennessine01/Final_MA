@@ -9,17 +9,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners;
-import vn.edu.usth.mylogin.Fragment.DetailActivity;
-import vn.edu.usth.mylogin.Domain.BookDomain;
-import vn.edu.usth.mylogin.R;
 
 import java.util.ArrayList;
+
+import vn.edu.usth.mylogin.Domain.BookDomain;
+import vn.edu.usth.mylogin.Fragment.DetailActivity;
+import vn.edu.usth.mylogin.R;
 
 public class BookListAdapter extends RecyclerView.Adapter<BookListAdapter.ViewHolder> {
     ArrayList<BookDomain> items;

@@ -1,26 +1,18 @@
 package vn.edu.usth.mylogin.Fragment;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
-
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
-import java.io.NotActiveException;
 import java.util.ArrayList;
 
-import vn.edu.usth.mylogin.Domain.BookDomain;
-import vn.edu.usth.mylogin.Helper.ManagementMyLibrary;
 import vn.edu.usth.mylogin.Adapter.BookListAdapter;
+import vn.edu.usth.mylogin.Domain.BookDomain;
 import vn.edu.usth.mylogin.R;
 
 public class Home extends Fragment {

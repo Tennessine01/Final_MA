@@ -1,16 +1,15 @@
 package vn.edu.usth.mylogin.Fragment;
 
 
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-import vn.edu.usth.mylogin.Domain.BookDomain;
+import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+
+import vn.edu.usth.mylogin.Domain.BookDomain;
 import vn.edu.usth.mylogin.Helper.ManagementMyLibrary;
 import vn.edu.usth.mylogin.R;
 

@@ -1,11 +1,11 @@
 package vn.edu.usth.mylogin.Helper;
 
-import vn.edu.usth.mylogin.Domain.BookDomain;
 import android.content.Context;
 import android.widget.Toast;
 
-
 import java.util.ArrayList;
+
+import vn.edu.usth.mylogin.Domain.BookDomain;
 
 public class ManagementMyLibrary {
 
@@ -43,7 +43,7 @@ public class ManagementMyLibrary {
     }
 
     public void minusNumberFood(ArrayList<BookDomain> listbook, int position, ChangeNumberItemsListener changeNumberItemsListener) {
-
+        listbook.remove(position);
         tinyDB.putListObject("Library", listbook);
         changeNumberItemsListener.changed();
     }
