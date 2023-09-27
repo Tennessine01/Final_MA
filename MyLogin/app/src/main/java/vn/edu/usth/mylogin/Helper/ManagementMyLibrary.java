@@ -20,11 +20,11 @@ public class ManagementMyLibrary {
     public void insertBook(BookDomain item) {
         ArrayList<BookDomain> listbook = getListBook();
         boolean existAlready = false;
-        int n = 0;
+//        int n = 0;
         for (int y = 0; y < listbook.size(); y++) {
             if (listbook.get(y).getTitle().equals(item.getTitle())) {
                 existAlready = true;
-                n = y;
+//                n = y;
                 break;
             }
         }

@@ -44,11 +44,11 @@ public class Home extends Fragment {
                 "Description",
                 "Content",
                 "book2",1930,4," Quarry Jack"));
-        items.add(new BookDomain("Harry Poter",
+        items.add(new BookDomain("Harry Potter",
                 "Description",
                 "Content",
                 "book3",2010,4," J.K.Rowling"));
-        items.add(new BookDomain("A Kitefor Moon",
+        items.add(new BookDomain("A Kite for Moon",
                 "Description",
                 "Content",
                 "book4",2014,4," Jane Yolen"));
